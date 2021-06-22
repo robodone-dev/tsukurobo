@@ -137,22 +137,15 @@ a.btn-custom01:active:after {
 }
 
 
-.example {
-  position: relative;
-  }
-
-.example {
-  position: absolute;
-  top: 82%;
-  left: 74%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
-  /*文字の装飾は省略*/
-  }
-
-.example img {
-  width: 100%;
-  }
+.box0 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    background: #26B7BC;
+    border: solid 3px #FFF;
+    border-radius: 10px;/*角の丸み*/
+}
+.box0 p {
+    margin: 0; 
+    padding: 0;
+}
